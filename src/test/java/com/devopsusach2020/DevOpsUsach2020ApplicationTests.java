@@ -12,7 +12,9 @@ class DevOpsUsach2020ApplicationTests {
 	void test1() {
 		Pais p = new Pais();
     	assertNotNull(p);
-
 	}
-
+	void test2() {
+		Pais p = new Pais();
+    	assertNotNull(p);
+	}
 }
