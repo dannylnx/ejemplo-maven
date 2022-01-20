@@ -9,12 +9,12 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 class DevOpsUsach2020ApplicationTests {
 
 	@Test
-	void test1() {
+	void contextLoads() {
 		Pais p = new Pais();
     	assertNotNull(p);
 	}
-
-	void test2() {
+	@Test
+	void contextLoads1() {
 		Pais p = new Pais();
     	assertNotNull(p);
 	}
